@@ -1,0 +1,17 @@
+{
+  "name": "@iryu54/badge-audit",
+  "version": "1.0.0",
+  "description": "Generate a badge for vulnerabilities",
+  "main": "index.js",
+  "bin": {
+    "badge-audit": "./server/bin/www"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}
