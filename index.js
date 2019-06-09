@@ -31,12 +31,12 @@ function createSVG(nbVulnerabilities) {
     </mask>
     <g mask="url(#a)">
       <path fill="#555" d="M0 0h93v20H0z"/>
-      <path fill="#ff0" d="M93 0h17v20H93z"/>
+      <path fill="${nbVulnerabilities ? '#ff0' : '#AFCC54'}" d="M93 0h17v20H93z"/>
       <path fill="url(#b)" d="M0 0h110v20H0z"/>
     </g>
     <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,Geneva,sans-serif" font-size="11">
-      <text x="46.5" y="15" fill="#010101" fill-opacity=".3">Vulnerabilities</text>
-      <text x="46.5" y="14">Vulnerabilities</text>
+      <text x="46.5" y="15" fill="#010101" fill-opacity=".3">vulnerabilities</text>
+      <text x="46.5" y="14">vulnerabilities</text>
       <text x="100.5" y="15" fill="#010101" fill-opacity=".3">${nbVulnerabilities}</text>
       <text x="100.5" y="14">${nbVulnerabilities}</text>
     </g>
