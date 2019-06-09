@@ -6,7 +6,10 @@
 
 ## Usage 
 
-Global
+### Globally
+``` badge-audit > badge-audit.svg``` 
+
+### Programmatically
 ``` javascript
 const audit = require('@iryu54/badge-audit)
 ;(async _ => {
