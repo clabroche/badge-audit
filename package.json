@@ -1,6 +1,6 @@
 {
   "name": "@iryu54/badge-audit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate a badge for vulnerabilities",
   "main": "index.js",
   "bin": {
