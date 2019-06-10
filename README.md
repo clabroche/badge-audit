@@ -11,7 +11,7 @@
 
 ### Programmatically
 ``` javascript
-const audit = require('@iryu54/badge-audit)
+const audit = require('@iryu54/badge-audit')
 ;(async _ => {
   const svg = await audit.launch()
 })()
